@@ -3,7 +3,7 @@ Feature: Division
   I want divide two values
   So that I get the result of this operation
 
-  Scenario Outline: Add two values
+  Scenario Outline: Divide two values
     Given a calculator able to perform basic operations
     When I have the division option available
     Then I divide <x> and <y> obtaining as result <total>

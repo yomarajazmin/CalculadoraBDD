@@ -3,7 +3,7 @@ Feature: Subtraction
   I want subtract two values
   So that I get the result of this operation
 
-  Scenario Outline: Add two values
+  Scenario Outline: Subtract two values
     Given a calculator able to perform basic operations
     When I have the subtraction option available
     Then I subtract <x> and <y> obtaining as result <total>
