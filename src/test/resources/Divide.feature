@@ -9,6 +9,9 @@ Feature: Division
     Then I divide <x> and <y> obtaining as result <total>
 
     Examples:
-      | x  | y  | total |
-      | 10 | 2  | 5     |
-      | 7  | 7  | 1     |
+      | x   | y  | total |
+      | 10  | 2  | 5     |
+      | 7   | 7  | 1     |
+      | -15 | 3  | -5    |
+      | -6  | -3 | 2     |
+      | 5   | 0  | 0     |
